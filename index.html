@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>RakhLo – Jagah milegi. Bharosa bhi.</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></head>
+<body>
+<header><div class="w"><div class="nav">
+<div class="row" style="flex-wrap:nowrap;align-items:center"><button class="btn s o" id="back" onclick="goBack()" aria-label="Back" style="display:none;font-size:1.1rem;line-height:1">←</button><div class="logo" onclick="go('home')"><svg width="30" height="30" viewBox="0 0 32 32"><rect x="3" y="9" width="26" height="19" rx="5" fill="var(--pri)"/><path d="M3 14h26" stroke="var(--card)" stroke-width="2"/><path d="M11 20l4 4 7-8" stroke="var(--card)" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/><circle cx="16" cy="5" r="3" fill="var(--light)"/></svg>RakhLo</div></div>
+<nav class="links" id="links"></nav>
+<div class="row"><button class="btn s" id="authBtn" onclick="A('auth')">Login / Sign Up</button><button class="btn s o burger" onclick="document.getElementById('dr').classList.toggle('open')" aria-label="Menu">☰</button></div>
+</div><nav class="drawer" id="dr"></nav></div></header>
+<main id="app"></main>
+<div id="m"></div>
+<script src="app.js"></script></body></html>
